@@ -31,11 +31,10 @@ A simple json example:
   ]
 ```
 
-What this data is about ? Programming languages or particular snake type and coffee you would find in the Java Indonesia ?
-There is clearly a lack of context resulting in an ambiguity. JSON-LD allows to solve the ambiguity problem by enabling a semantic-preserving data exchange.
+What is this data all about ? Programming languages or a particular snake type and a coffee you would find in the Java Indonesia ? There is clearly a lack of context resulting in an ambiguity. JSON-LD allows us to solve the ambiguity problem by enabling a semantic-preserving data exchange.
 It does that by adding to a json document a @context object where every key is associated with an identifier.
 
-For example with the payload below machine and human agents can look up the context to find out which JAVA are this data talking about.
+For example with the payload below, machine and human agents can look up the context to find out which JAVA this data is talking about.
 
 ```json
   [
@@ -54,4 +53,4 @@ For example with the payload below machine and human agents can look up the cont
   
 ```
 
-Let go the [JSON-LD playground](https://json-ld.org/playground/) to have a closer look at its data model.
+Let's go to the [JSON-LD playground](https://json-ld.org/playground/) to have a closer look at its data model.
